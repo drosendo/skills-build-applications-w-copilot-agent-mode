@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-right: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: rgba(255,255,255,0.95);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-shadow: 0 4px 24px rgba(44,62,80,0.08);
+  padding-top: 40px;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.octofit-navbar {
+  width: 100vw;
+  background: linear-gradient(90deg, #0d47a1 0%, #1976d2 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+}
+
+.octofit-navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 24px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.octofit-navbar a:hover {
+  color: #ffd600;
+}
+
+.octofit-heading {
+  color: #1976d2;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+table {
+  width: 80%;
+  margin: 24px auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+}
+th, td {
+  border: 1px solid #1976d2;
+  padding: 12px 16px;
+  text-align: left;
+}
+th {
+  background: #1976d2;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background: #e3f2fd;
+}
+
+button, .btn {
+  background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 8px;
+  transition: background 0.2s;
+}
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #1565c0 0%, #1976d2 100%);
+}
+
+.App-link:hover {
+  color: #ffd600;
+}
